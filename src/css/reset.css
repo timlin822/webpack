@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+img{
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input,button,select,textarea{
+    border: none;
+    outline: none;
+}
+table,th,td{
+    border-collapse: collapse;
+}
+
+/* ************************************* */
+
+/* 背景 */
+.bg-height{
+    min-height: 100vh;
+}
+.bg-cover{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-fixed{
+    background-attachment: fixed;
+}
+
+/* ************************************* */
+
+/* container */
+.section-padding{
+    padding: 80px 0px;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container-padding{
+    padding: 0px 120px;
+}
+@media screen and (max-width: 1200px){
+    .container-padding{
+        padding: 0px 80px;
+    }
+}
+@media screen and (max-width: 768px){
+    .container-padding{
+        padding: 0px 40px;
+    }
+}
+@media screen and (max-width: 576px){
+    .container-padding{
+        padding: 0px 20px;
+    }
+}
